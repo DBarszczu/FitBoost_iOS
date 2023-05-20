@@ -11,6 +11,11 @@
 		E4C4EE7B2A18D23F00C06B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */; };
 		E4C4EE7D2A18D24000C06B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4EE7C2A18D24000C06B24 /* Assets.xcassets */; };
 		E4C4EE802A18D24000C06B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4EE7F2A18D24000C06B24 /* Preview Assets.xcassets */; };
+		E4C4EE882A18D2AC00C06B24 /* ViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */; };
+		E4C4EE8A2A18D2BA00C06B24 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */; };
+		E4C4EE8C2A18D2C700C06B24 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */; };
+		E4C4EE8E2A18D2D100C06B24 /* ViewDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */; };
+		E4C4EE902A18D2D900C06B24 /* ViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4C4EE7C2A18D24000C06B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C4EE7F2A18D24000C06B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHome.swift; sourceTree = "<group>"; };
+		E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
+		E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
+		E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDiet.swift; sourceTree = "<group>"; };
+		E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		E4C4EE772A18D23F00C06B24 /* FitBoost */ = {
 			isa = PBXGroup;
 			children = (
+				E4C4EE912A18D89100C06B24 /* Button */,
+				E4C4EE862A18D28F00C06B24 /* Views */,
 				E4C4EE782A18D23F00C06B24 /* FitBoostApp.swift */,
 				E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */,
 				E4C4EE7C2A18D24000C06B24 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				E4C4EE7F2A18D24000C06B24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4C4EE862A18D28F00C06B24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */,
+				E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */,
+				E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */,
+				E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */,
+				E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4C4EE912A18D89100C06B24 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C4EE7B2A18D23F00C06B24 /* ContentView.swift in Sources */,
+				E4C4EE902A18D2D900C06B24 /* ViewProfile.swift in Sources */,
+				E4C4EE8E2A18D2D100C06B24 /* ViewDiet.swift in Sources */,
+				E4C4EE882A18D2AC00C06B24 /* ViewHome.swift in Sources */,
+				E4C4EE8C2A18D2C700C06B24 /* ViewMenu.swift in Sources */,
 				E4C4EE792A18D23F00C06B24 /* FitBoostApp.swift in Sources */,
+				E4C4EE8A2A18D2BA00C06B24 /* ViewTraining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
