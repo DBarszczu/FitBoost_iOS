@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43A62732A1B528C007C736F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43A62722A1B528C007C736F /* DataController.swift */; };
+		E43A62762A1B5673007C736F /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E43A62742A1B5673007C736F /* FoodModel.xcdatamodeld */; };
+		E48F24282A20B9ED00E20142 /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F24272A20B9ED00E20142 /* ProfileItem.swift */; };
+		E48F242A2A20BEF200E20142 /* ViewCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F24292A20BEF200E20142 /* ViewCalculator.swift */; };
+		E48F242C2A20C2A200E20142 /* ViewPersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F242B2A20C2A200E20142 /* ViewPersonalData.swift */; };
+		E48F242E2A20C36B00E20142 /* ViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F242D2A20C36B00E20142 /* ViewSettings.swift */; };
+		E48F24302A2618EA00E20142 /* ProgressBarFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F242F2A2618EA00E20142 /* ProgressBarFlat.swift */; };
 		E4C4EE792A18D23F00C06B24 /* FitBoostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE782A18D23F00C06B24 /* FitBoostApp.swift */; };
 		E4C4EE7B2A18D23F00C06B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */; };
 		E4C4EE7D2A18D24000C06B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4EE7C2A18D24000C06B24 /* Assets.xcassets */; };
 		E4C4EE802A18D24000C06B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4EE7F2A18D24000C06B24 /* Preview Assets.xcassets */; };
 		E4C4EE882A18D2AC00C06B24 /* ViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */; };
 		E4C4EE8A2A18D2BA00C06B24 /* ViewTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */; };
-		E4C4EE8C2A18D2C700C06B24 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */; };
+		E4C4EE8C2A18D2C700C06B24 /* ViewMenuListOfProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8B2A18D2C700C06B24 /* ViewMenuListOfProducts.swift */; };
 		E4C4EE8E2A18D2D100C06B24 /* ViewDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */; };
 		E4C4EE902A18D2D900C06B24 /* ViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */; };
+		E4C4EE992A18E64C00C06B24 /* TrainingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE982A18E64C00C06B24 /* TrainingButton.swift */; };
+		E4C4EE9C2A18F60100C06B24 /* HomeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE9B2A18F60100C06B24 /* HomeText.swift */; };
+		E4C4EE9E2A18F70300C06B24 /* HomeTextDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE9D2A18F70300C06B24 /* HomeTextDetails.swift */; };
+		E4C4EEA02A18FFC000C06B24 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EE9F2A18FFC000C06B24 /* ProgressBar.swift */; };
+		E4C4EEA32A19034400C06B24 /* ViewChest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEA22A19034400C06B24 /* ViewChest.swift */; };
+		E4C4EEA52A19043A00C06B24 /* ViewShoulders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEA42A19043A00C06B24 /* ViewShoulders.swift */; };
+		E4C4EEA72A19044000C06B24 /* ViewBiceps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEA62A19044000C06B24 /* ViewBiceps.swift */; };
+		E4C4EEA92A19044900C06B24 /* ViewTricpes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEA82A19044900C06B24 /* ViewTricpes.swift */; };
+		E4C4EEAB2A19045000C06B24 /* ViewBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEAA2A19045000C06B24 /* ViewBack.swift */; };
+		E4C4EEAD2A19045900C06B24 /* ViewButtocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEAC2A19045900C06B24 /* ViewButtocks.swift */; };
+		E4C4EEAF2A19046C00C06B24 /* ViewLegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEAE2A19046C00C06B24 /* ViewLegs.swift */; };
+		E4C4EEB12A19047300C06B24 /* ViewBelly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEB02A19047300C06B24 /* ViewBelly.swift */; };
+		E4C4EEB32A190E2600C06B24 /* TextTitleBodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEB22A190E2600C06B24 /* TextTitleBodyPart.swift */; };
+		E4C4EEB52A190F6E00C06B24 /* TextExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EEB42A190F6E00C06B24 /* TextExercise.swift */; };
+		E4ED91F32A1C1576002B7FDF /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ED91F22A1C1576002B7FDF /* ViewMenu.swift */; };
+		E4ED91F52A1C20D8002B7FDF /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ED91F42A1C20D8002B7FDF /* EditFoodView.swift */; };
+		E4FD76CD2A1BB0FD0034B487 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD76CC2A1BB0FD0034B487 /* AddFoodView.swift */; };
+		E4FD76CF2A1BB30B0034B487 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD76CE2A1BB30B0034B487 /* TimeFormatting.swift */; };
+		E4FD76D32A1BCA150034B487 /* EditMenuListOfProfucts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD76D22A1BCA150034B487 /* EditMenuListOfProfucts.swift */; };
+		E4FD76D52A1BD0470034B487 /* CountFoodText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD76D42A1BD0470034B487 /* CountFoodText.swift */; };
+		E4FD76D72A1BD1350034B487 /* CountFoodValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD76D62A1BD1350034B487 /* CountFoodValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43A62722A1B528C007C736F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E43A62752A1B5673007C736F /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		E48F24272A20B9ED00E20142 /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
+		E48F24292A20BEF200E20142 /* ViewCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCalculator.swift; sourceTree = "<group>"; };
+		E48F242B2A20C2A200E20142 /* ViewPersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPersonalData.swift; sourceTree = "<group>"; };
+		E48F242D2A20C36B00E20142 /* ViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSettings.swift; sourceTree = "<group>"; };
+		E48F242F2A2618EA00E20142 /* ProgressBarFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarFlat.swift; sourceTree = "<group>"; };
 		E4C4EE752A18D23F00C06B24 /* FitBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4EE782A18D23F00C06B24 /* FitBoostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBoostApp.swift; sourceTree = "<group>"; };
 		E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,9 +61,30 @@
 		E4C4EE7F2A18D24000C06B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHome.swift; sourceTree = "<group>"; };
 		E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTraining.swift; sourceTree = "<group>"; };
-		E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
+		E4C4EE8B2A18D2C700C06B24 /* ViewMenuListOfProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenuListOfProducts.swift; sourceTree = "<group>"; };
 		E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDiet.swift; sourceTree = "<group>"; };
 		E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfile.swift; sourceTree = "<group>"; };
+		E4C4EE982A18E64C00C06B24 /* TrainingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingButton.swift; sourceTree = "<group>"; };
+		E4C4EE9B2A18F60100C06B24 /* HomeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeText.swift; sourceTree = "<group>"; };
+		E4C4EE9D2A18F70300C06B24 /* HomeTextDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextDetails.swift; sourceTree = "<group>"; };
+		E4C4EE9F2A18FFC000C06B24 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		E4C4EEA22A19034400C06B24 /* ViewChest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewChest.swift; sourceTree = "<group>"; };
+		E4C4EEA42A19043A00C06B24 /* ViewShoulders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewShoulders.swift; sourceTree = "<group>"; };
+		E4C4EEA62A19044000C06B24 /* ViewBiceps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBiceps.swift; sourceTree = "<group>"; };
+		E4C4EEA82A19044900C06B24 /* ViewTricpes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTricpes.swift; sourceTree = "<group>"; };
+		E4C4EEAA2A19045000C06B24 /* ViewBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBack.swift; sourceTree = "<group>"; };
+		E4C4EEAC2A19045900C06B24 /* ViewButtocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewButtocks.swift; sourceTree = "<group>"; };
+		E4C4EEAE2A19046C00C06B24 /* ViewLegs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLegs.swift; sourceTree = "<group>"; };
+		E4C4EEB02A19047300C06B24 /* ViewBelly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBelly.swift; sourceTree = "<group>"; };
+		E4C4EEB22A190E2600C06B24 /* TextTitleBodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTitleBodyPart.swift; sourceTree = "<group>"; };
+		E4C4EEB42A190F6E00C06B24 /* TextExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExercise.swift; sourceTree = "<group>"; };
+		E4ED91F22A1C1576002B7FDF /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
+		E4ED91F42A1C20D8002B7FDF /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		E4FD76CC2A1BB0FD0034B487 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		E4FD76CE2A1BB30B0034B487 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		E4FD76D22A1BCA150034B487 /* EditMenuListOfProfucts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuListOfProfucts.swift; sourceTree = "<group>"; };
+		E4FD76D42A1BD0470034B487 /* CountFoodText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountFoodText.swift; sourceTree = "<group>"; };
+		E4FD76D62A1BD1350034B487 /* CountFoodValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountFoodValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +98,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4282C882A1A1EF100CF2755 /* ViewHome */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */,
+				E4C4EE9B2A18F60100C06B24 /* HomeText.swift */,
+				E4C4EE9D2A18F70300C06B24 /* HomeTextDetails.swift */,
+				E4C4EE9F2A18FFC000C06B24 /* ProgressBar.swift */,
+			);
+			path = ViewHome;
+			sourceTree = "<group>";
+		};
+		E4282C892A1A24CB00CF2755 /* ViewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EE8B2A18D2C700C06B24 /* ViewMenuListOfProducts.swift */,
+				E4FD76CC2A1BB0FD0034B487 /* AddFoodView.swift */,
+				E4FD76D22A1BCA150034B487 /* EditMenuListOfProfucts.swift */,
+				E4FD76D42A1BD0470034B487 /* CountFoodText.swift */,
+				E4FD76D62A1BD1350034B487 /* CountFoodValue.swift */,
+				E4ED91F22A1C1576002B7FDF /* ViewMenu.swift */,
+				E4ED91F42A1C20D8002B7FDF /* EditFoodView.swift */,
+				E48F242F2A2618EA00E20142 /* ProgressBarFlat.swift */,
+			);
+			path = ViewMenu;
+			sourceTree = "<group>";
+		};
+		E4282C8A2A1A251800CF2755 /* ViewDiet */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */,
+			);
+			path = ViewDiet;
+			sourceTree = "<group>";
+		};
+		E4282C8B2A1A252600CF2755 /* ViewProfile */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */,
+				E48F24272A20B9ED00E20142 /* ProfileItem.swift */,
+				E48F24292A20BEF200E20142 /* ViewCalculator.swift */,
+				E48F242B2A20C2A200E20142 /* ViewPersonalData.swift */,
+				E48F242D2A20C36B00E20142 /* ViewSettings.swift */,
+			);
+			path = ViewProfile;
+			sourceTree = "<group>";
+		};
+		E43A626E2A1B51BE007C736F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				E43A62722A1B528C007C736F /* DataController.swift */,
+				E43A62742A1B5673007C736F /* FoodModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		E4C4EE6C2A18D23F00C06B24 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +172,11 @@
 		E4C4EE772A18D23F00C06B24 /* FitBoost */ = {
 			isa = PBXGroup;
 			children = (
-				E4C4EE912A18D89100C06B24 /* Button */,
-				E4C4EE862A18D28F00C06B24 /* Views */,
 				E4C4EE782A18D23F00C06B24 /* FitBoostApp.swift */,
 				E4C4EE7A2A18D23F00C06B24 /* ContentView.swift */,
+				E43A626E2A1B51BE007C736F /* DataModel */,
+				E4FD76C92A1BB06B0034B487 /* Helpers */,
+				E4C4EE862A18D28F00C06B24 /* Views */,
 				E4C4EE7C2A18D24000C06B24 /* Assets.xcassets */,
 				E4C4EE7E2A18D24000C06B24 /* Preview Content */,
 			);
@@ -82,20 +194,40 @@
 		E4C4EE862A18D28F00C06B24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E4C4EE872A18D2AC00C06B24 /* ViewHome.swift */,
-				E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */,
-				E4C4EE8B2A18D2C700C06B24 /* ViewMenu.swift */,
-				E4C4EE8D2A18D2D100C06B24 /* ViewDiet.swift */,
-				E4C4EE8F2A18D2D900C06B24 /* ViewProfile.swift */,
+				E4282C882A1A1EF100CF2755 /* ViewHome */,
+				E4C4EEA12A19032900C06B24 /* ViewTraining */,
+				E4282C892A1A24CB00CF2755 /* ViewMenu */,
+				E4282C8A2A1A251800CF2755 /* ViewDiet */,
+				E4282C8B2A1A252600CF2755 /* ViewProfile */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E4C4EE912A18D89100C06B24 /* Button */ = {
+		E4C4EEA12A19032900C06B24 /* ViewTraining */ = {
 			isa = PBXGroup;
 			children = (
+				E4C4EE892A18D2BA00C06B24 /* ViewTraining.swift */,
+				E4C4EEA22A19034400C06B24 /* ViewChest.swift */,
+				E4C4EEA42A19043A00C06B24 /* ViewShoulders.swift */,
+				E4C4EEA62A19044000C06B24 /* ViewBiceps.swift */,
+				E4C4EEA82A19044900C06B24 /* ViewTricpes.swift */,
+				E4C4EEAA2A19045000C06B24 /* ViewBack.swift */,
+				E4C4EEAC2A19045900C06B24 /* ViewButtocks.swift */,
+				E4C4EEAE2A19046C00C06B24 /* ViewLegs.swift */,
+				E4C4EEB02A19047300C06B24 /* ViewBelly.swift */,
+				E4C4EEB42A190F6E00C06B24 /* TextExercise.swift */,
+				E4C4EEB22A190E2600C06B24 /* TextTitleBodyPart.swift */,
+				E4C4EE982A18E64C00C06B24 /* TrainingButton.swift */,
 			);
-			path = Button;
+			path = ViewTraining;
+			sourceTree = "<group>";
+		};
+		E4FD76C92A1BB06B0034B487 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD76CE2A1BB30B0034B487 /* TimeFormatting.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,13 +300,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C4EEA72A19044000C06B24 /* ViewBiceps.swift in Sources */,
+				E4FD76D52A1BD0470034B487 /* CountFoodText.swift in Sources */,
+				E4C4EEAF2A19046C00C06B24 /* ViewLegs.swift in Sources */,
+				E4ED91F32A1C1576002B7FDF /* ViewMenu.swift in Sources */,
+				E4C4EEA32A19034400C06B24 /* ViewChest.swift in Sources */,
 				E4C4EE7B2A18D23F00C06B24 /* ContentView.swift in Sources */,
+				E4C4EEA92A19044900C06B24 /* ViewTricpes.swift in Sources */,
+				E4C4EEA02A18FFC000C06B24 /* ProgressBar.swift in Sources */,
+				E4FD76D32A1BCA150034B487 /* EditMenuListOfProfucts.swift in Sources */,
+				E4C4EEAB2A19045000C06B24 /* ViewBack.swift in Sources */,
+				E48F24302A2618EA00E20142 /* ProgressBarFlat.swift in Sources */,
+				E4C4EEA52A19043A00C06B24 /* ViewShoulders.swift in Sources */,
+				E48F24282A20B9ED00E20142 /* ProfileItem.swift in Sources */,
+				E4FD76CD2A1BB0FD0034B487 /* AddFoodView.swift in Sources */,
+				E4C4EE9C2A18F60100C06B24 /* HomeText.swift in Sources */,
 				E4C4EE902A18D2D900C06B24 /* ViewProfile.swift in Sources */,
+				E4C4EEB32A190E2600C06B24 /* TextTitleBodyPart.swift in Sources */,
 				E4C4EE8E2A18D2D100C06B24 /* ViewDiet.swift in Sources */,
+				E4C4EEB12A19047300C06B24 /* ViewBelly.swift in Sources */,
+				E4ED91F52A1C20D8002B7FDF /* EditFoodView.swift in Sources */,
 				E4C4EE882A18D2AC00C06B24 /* ViewHome.swift in Sources */,
-				E4C4EE8C2A18D2C700C06B24 /* ViewMenu.swift in Sources */,
+				E4FD76D72A1BD1350034B487 /* CountFoodValue.swift in Sources */,
+				E43A62762A1B5673007C736F /* FoodModel.xcdatamodeld in Sources */,
+				E4C4EE8C2A18D2C700C06B24 /* ViewMenuListOfProducts.swift in Sources */,
+				E4C4EEAD2A19045900C06B24 /* ViewButtocks.swift in Sources */,
+				E4C4EE9E2A18F70300C06B24 /* HomeTextDetails.swift in Sources */,
+				E48F242C2A20C2A200E20142 /* ViewPersonalData.swift in Sources */,
 				E4C4EE792A18D23F00C06B24 /* FitBoostApp.swift in Sources */,
+				E4FD76CF2A1BB30B0034B487 /* TimeFormatting.swift in Sources */,
 				E4C4EE8A2A18D2BA00C06B24 /* ViewTraining.swift in Sources */,
+				E48F242A2A20BEF200E20142 /* ViewCalculator.swift in Sources */,
+				E43A62732A1B528C007C736F /* DataController.swift in Sources */,
+				E48F242E2A20C36B00E20142 /* ViewSettings.swift in Sources */,
+				E4C4EE992A18E64C00C06B24 /* TrainingButton.swift in Sources */,
+				E4C4EEB52A190F6E00C06B24 /* TextExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +533,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E43A62742A1B5673007C736F /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E43A62752A1B5673007C736F /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = E43A62752A1B5673007C736F /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E4C4EE6D2A18D23F00C06B24 /* Project object */;
 }
